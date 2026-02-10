@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ID Card Generator</title>
+    <link rel="stylesheet" href="IdCardGenerator.css"></link>
+
+</head>
+<body>
+    <div id="box">
+        <div id="head">ID Card Generator</div>
+        <div id="main">
+            <div id="leftside">
+                <div class="lefttop">Enter Student Details</div>
+                <div class="formgroup">
+                    <label for="name">Enter name:<br></label>
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="formgroup">
+                    <label for="college">Enter college name:<br></label>
+                    <i class="fas fa-landmark"></i>
+                    <input type="text" id="college" name="college" required>
+                </div>
+                <div class="formgroup">
+                    <label for="location">Enter location:<br></label>
+                    <i class="fas fa-address-book"></i>
+                    <input type="text" id="location" name="location" required>
+                </div>
+                <div class="formgroup">
+                    <label for="picture">Enter student's picture:<br></label>
+                    <input type="file" id="picture" name="picture" accept="image/*" required>
+                </div>
+                <div class="formgroup">
+                    <button class="generate-button" onclick="generateCard()">Generate Card</button>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div id="rightside"></div>
+        </div>
+    </div>
+    <script src="IdCardGenerator.js"></script>
+     
+</body>
+</html>

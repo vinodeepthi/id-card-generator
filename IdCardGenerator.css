@@ -1,0 +1,139 @@
+body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Geneva, sans-serif;
+        }
+        #box{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+        }
+        #head {
+            background-color: #4047F0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 0 0 15%;
+            color: white;
+            font-size: 42px;
+            font-weight: 600;
+        }
+        #main {
+            display: flex;
+            flex: 1;
+            background-color: white;
+        }
+        #leftside {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+            margin-left: 10%;
+        }
+        #rightside {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+        }
+        .line {
+            width: 1px;
+            background-color: lightgrey;
+        }
+        .lefttop {
+            font-size: 30px;
+            color: #4047F0;
+            font-weight: 550;
+            padding-bottom: 50px;
+        }
+        .formgroup {
+            margin-bottom: 20px;
+        }
+        .formgroup label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: 550;
+        }
+        .formgroup input[type="text"] {
+            width: 220px;
+            height: 30px;
+            padding: 5px;
+            border-radius: 10px;
+            border: 2px solid lightgrey;
+        }
+        .formgroup input[type="file"] {
+            border: 0px;
+        }
+        .formgroup button {
+            background-color: #4047F0;
+            color: white;
+            font-weight: 550;
+            font-size: 15px;
+            border-radius: 10px;
+            width: 140px;
+            height: 40px;
+            border-color: #4047F0;
+        }
+        .formgroup i{
+            position: absolute;
+            padding: 13px;
+        }
+        .righttop{
+            font-size: 30px;
+            font-weight: 550;
+            margin-bottom: 20px;
+        }
+        #id-card {
+            display: flex;
+            border-radius: 10px;
+            padding: 0px;
+            width: 100%;
+            max-width: 450px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        #id-left {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to top, #4047F0, #8f94fb);
+            border-radius: 10px;
+        }
+        #id-left img {
+            width: 110px;
+            height: 170px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-radius: 20%;
+        }
+        #id-right {
+            flex: 2;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+            background-color: white;
+        }
+        #id-right p {
+            margin: 5px 0;
+            font-size: 20px;
+            color: lightgrey;
+        }
+        .label {
+            color: lightgrey;
+            font-size: 18px;
+        }
+        .value {
+            color: black;
+            font-size: 20px;
+        }
